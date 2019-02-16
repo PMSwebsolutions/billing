@@ -6,6 +6,7 @@ body{
 header{
     background-image: url(../images/home.jpg); 
     height:90%; 
+    background-repeat: no-repeat;
 }
 
 
@@ -22,6 +23,10 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
+.my-nav > .my-nav-items > ul > .ham{
+    display: none;
+}
+
 .my-nav > .my-nav-items > ul > li {
     float: left;
 }
@@ -32,6 +37,10 @@ header{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
+}
+.my-nav > .my-nav-items > ul > li > a:hover{
+    border-bottom: 2px solid red;
 }
 
 .my-nav > .my-nav-head > ul {
@@ -52,20 +61,22 @@ header{
 
 .my-nav > .my-nav-head > ul > li > a {
     display: block;
-    color: white;
+    color: red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.my-nav-items-hover-home{
-    border-left: 5px solid white;
-    height: 4em;
-    position: absolute;
-    top: 0;
-    right: 35%
-}
+
 /*
 .my-nav > .my-nav-items > ul > li > a:hover {
     background-color: #111;
 }*/
+@media only screen and (max-width:1000px){
+    .my-nav > .my-nav-items > ul > li{
+        display: none;
+    }
+    .my-nav > .my-nav-items > ul > .ham{
+        display: block;
+    }
+}
