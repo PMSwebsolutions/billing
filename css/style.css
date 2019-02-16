@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/home.jpg); 
+    height:90%; 
+}
+
+
+.my-nav > .my-nav-items > ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 2em;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;    
+    font-size: 1.5em;
+    position: absolute;
+    right: 8%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-nav > .my-nav-items > ul > li {
+    float: left;
+}
+
+.my-nav > .my-nav-items > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.my-nav > .my-nav-head > ul {
+    list-style-type: none;
+    margin-top: 0.67em;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;    
+    font-size: 3em;
+    position: absolute;
+    left: 18%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-nav > .my-nav-head > ul > li {
+    float: left;
+}
+
+.my-nav > .my-nav-head > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.my-nav-items-hover-home{
+    border-left: 5px solid white;
+    height: 4em;
+    position: absolute;
+    top: 0;
+    right: 35%
+}
+/*
+.my-nav > .my-nav-items > ul > li > a:hover {
+    background-color: #111;
+}*/
